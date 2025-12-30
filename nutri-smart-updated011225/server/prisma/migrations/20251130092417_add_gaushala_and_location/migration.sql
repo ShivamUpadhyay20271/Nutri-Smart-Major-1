@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "Donation" ADD COLUMN     "donationType" TEXT NOT NULL DEFAULT 'NGO',
+ADD COLUMN     "latitude" DOUBLE PRECISION,
+ADD COLUMN     "longitude" DOUBLE PRECISION;
+
+-- AlterTable
+ALTER TABLE "ngo" ADD COLUMN     "category" TEXT NOT NULL DEFAULT 'NGO',
+ADD COLUMN     "latitude" DOUBLE PRECISION,
+ADD COLUMN     "longitude" DOUBLE PRECISION;
